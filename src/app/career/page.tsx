@@ -8,7 +8,7 @@ export default function CareerPage() {
           <div className="border rounded-lg p-6 hover:shadow-lg transition-shadow">
             <h2 className="text-xl font-semibold mb-2">Software Engineer</h2>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              We're looking for passionate developers to join our engineering team.
+              We&apos;re looking for passionate developers to join our engineering team.
             </p>
             <button className="bg-foreground text-background px-4 py-2 rounded-md">
               Apply Now
