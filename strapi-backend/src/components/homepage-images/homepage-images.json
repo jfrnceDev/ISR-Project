@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_homepage_images_homepage_images",
+  "info": {
+    "displayName": "homepageImages",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "homepageImages": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

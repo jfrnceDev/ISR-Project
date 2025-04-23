@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_legal_links_legal_links",
+  "info": {
+    "displayName": "LegalLinks",
+    "icon": "link",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "isExternal": {
+      "type": "boolean"
+    },
+    "icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "ariaLabel": {
+      "type": "string"
+    }
+  }
+}

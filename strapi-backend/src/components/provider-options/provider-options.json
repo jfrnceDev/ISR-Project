@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_provider_options_provider_options",
+  "info": {
+    "displayName": "ProviderOptions",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "logo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "isActive": {
+      "type": "boolean"
+    },
+    "providerId": {
+      "type": "string"
+    }
+  }
+}

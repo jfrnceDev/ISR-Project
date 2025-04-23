@@ -1,0 +1,77 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "HomePage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "heroTitle": {
+      "type": "string"
+    },
+    "heroSubtitle": {
+      "type": "string"
+    },
+    "heroImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "heroCtaText": {
+      "type": "string"
+    },
+    "heroCtaLink": {
+      "type": "string"
+    },
+    "Feature": {
+      "displayName": "features",
+      "type": "component",
+      "repeatable": true,
+      "component": "feature.features"
+    },
+    "aboutSectionTitle": {
+      "type": "string"
+    },
+    "aboutSectionContent": {
+      "type": "string"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "heroButton1": {
+      "type": "string"
+    },
+    "heroButton2": {
+      "type": "string"
+    },
+    "heroSecondaryCtaLink": {
+      "type": "string"
+    },
+    "section": {
+      "type": "component",
+      "repeatable": true,
+      "component": "section.section"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "homepageImages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage-images.homepage-images"
+    }
+  }
+}

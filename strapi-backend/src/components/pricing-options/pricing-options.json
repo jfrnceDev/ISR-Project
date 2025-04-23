@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_pricing_options_pricing_options",
+  "info": {
+    "displayName": "pricingOptions",
+    "icon": "priceTag",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal"
+    },
+    "currency": {
+      "type": "string"
+    },
+    "frequency": {
+      "type": "enumeration",
+      "enum": [
+        "monthly",
+        "yearly",
+        "one-time"
+      ]
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "features": {
+      "type": "component",
+      "repeatable": true,
+      "component": "feature.features"
+    },
+    "isPopular": {
+      "type": "boolean"
+    },
+    "buttonText": {
+      "type": "string"
+    },
+    "buttonUrl": {
+      "type": "string"
+    },
+    "isActive": {
+      "type": "boolean"
+    }
+  }
+}

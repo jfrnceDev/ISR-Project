@@ -39,3 +39,23 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Strapi backend specific
+/strapi-backend/node_modules
+/strapi-backend/.cache
+/strapi-backend/.tmp
+/strapi-backend/build
+/strapi-backend/dist
+/strapi-backend/.env*
+/strapi-backend/license.txt
+/strapi-backend/exports
+/strapi-backend/database/data.db
+/strapi-backend/database/*.db
+/strapi-backend/database/*.db-*
+
+# Strapi uploads (keep this if you don't want media files in git)
+/strapi-backend/public/uploads/*
+!/strapi-backend/public/uploads/.gitkeep
+
+# Strapi logs
+/strapi-backend/logs

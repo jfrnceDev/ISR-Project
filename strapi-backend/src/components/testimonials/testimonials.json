@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_testimonials_testimonials",
+  "info": {
+    "displayName": "testimonials",
+    "icon": "pencil",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "qoute": {
+      "type": "string"
+    },
+    "author": {
+      "type": "string"
+    },
+    "position": {
+      "type": "string"
+    },
+    "companyName": {
+      "type": "string"
+    },
+    "avatar": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "rating": {
+      "type": "integer"
+    }
+  }
+}

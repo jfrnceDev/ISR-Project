@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_carousel_ticker_carousel_tickers",
+  "info": {
+    "displayName": "CarouselTicker",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "carouselItemTitle": {
+      "type": "string"
+    },
+    "carouselItemLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
